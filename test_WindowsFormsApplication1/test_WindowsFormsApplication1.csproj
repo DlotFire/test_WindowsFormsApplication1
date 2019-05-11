@@ -47,25 +47,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form_Str.cs">
+    <Compile Include="初试\Form_Str.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Str.Designer.cs">
+    <Compile Include="初试\Form_Str.Designer.cs">
       <DependentUpon>Form_Str.cs</DependentUpon>
     </Compile>
-    <Compile Include="HelpTools.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Tool\HelpTools.cs" />
+    <Compile Include="初试\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="初试\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="初试\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Str.resx">
+    <EmbeddedResource Include="初试\Form_Str.resx">
       <DependentUpon>Form_Str.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
